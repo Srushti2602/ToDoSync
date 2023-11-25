@@ -23,7 +23,7 @@ data:
     receivers:
       - name: 'slack-notifications'
         slack_configs:
-          - api_url: 'https://hooks.slack.com/services/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'
+          - api_url: ' '
             channel: '#failurealerts'
             send_resolved: true
             text: >
