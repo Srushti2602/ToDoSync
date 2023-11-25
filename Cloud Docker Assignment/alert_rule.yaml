@@ -29,7 +29,7 @@ spec:
         - alert: Watchdog
           annotations:
             description: This alert ensures the alerting pipeline is functional. It should always be firing.
-            runbook_url: https://runbooks.prometheus-operator.dev/runbooks/general/watchdog
+            runbook_url: 
             summary: Alertmanager functionality verification.
           expr: vector(1)
           labels:
